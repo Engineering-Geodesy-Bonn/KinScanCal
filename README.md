@@ -49,6 +49,13 @@ where
 
 - $\mathbf x_{i}^{s_{[l]}}(t)$: Object point $i$ in the sensor $s_{[l]}$ reference frame at time $(t)$.
 
+
+## Installation (Python Environment)
+
+- python -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
+
 ## Installation (Docker)
 
 The repository also contains Dockerfile. Please build and run the docker using the following commands:
