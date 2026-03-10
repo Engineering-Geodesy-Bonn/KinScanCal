@@ -1,11 +1,11 @@
 <div style="width: 100%; display: flex; flex-direction: column; gap: 20px;">
   <div style="display: flex; width: 100%; gap: 20px;">
-    <figure style="flex: 1; margin: 0;">
+  <figure style="flex: 1; margin: 0; display: flex; justify-content: flex-start;">
       <img src="./images/corn_id.gif" 
            alt="Point cloud by scanner index" 
            style="width: 100%; height: auto; display: block;">
     </figure>
-    <figure style="flex: 1; margin: 0;">
+    <figure style="flex: 1; margin: 0; display: flex; justify-content: flex-end;">
       <img src="./images/corn_h.gif" 
            alt="Point cloud by height" 
            style="width: 100%; height: auto; display: block;">
