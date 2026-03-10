@@ -6,7 +6,7 @@
              style="width: 100%; height: auto; display: block; margin: 0;" 
              alt="Scanner Index">
       </td>
-      <td style="width: 50%; padding-left: 10px; border: none; vertical-align: top;">
+      <td style="width: 50%; padding-left: 20px; border: none; vertical-align: top;">
         <img src="./images/corn_h.gif" 
              style="width: 100%; height: auto; display: block; margin: 0;" 
              alt="Height">
