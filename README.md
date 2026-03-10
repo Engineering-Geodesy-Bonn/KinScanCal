@@ -6,7 +6,7 @@
              style="width:100%; height:auto; display:block; margin:0 auto;"
              alt="Point cloud by scanner index">
         <figcaption style="margin-top:4px; display:block; clear:both; text-align:center;">
-          Scanner index colored
+          Index colored
         </figcaption>
       </figure>
     </td>
