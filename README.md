@@ -1,18 +1,25 @@
-<div style="width: 100%; display: flex; flex-direction: column; gap: 20px;">
-  <div style="display: flex; width: 100%; gap: 20px;">
-  <figure style="flex: 1; margin: 0; display: flex; justify-content: flex-start;">
+<div style="width: 100% !important; display: block !important; margin: 0 !important; padding: 0 !important;">
+  <div style="display: flex !important; width: 100% !important; justify-content: space-between !important; margin-bottom: 20px !important;">
+    <figure style="width: calc(50% - 10px) !important; margin: 0 !important; padding: 0 !important; float: left;">
       <img src="./images/corn_id.gif" 
-           alt="Point cloud by scanner index" 
-           style="width: 100%; height: auto; display: block;">
+           alt="Left Image" 
+           style="width: 100% !important; height: auto !important; display: block !important;">
     </figure>
-    <figure style="flex: 1; margin: 0; display: flex; justify-content: flex-end;">
+    <figure style="width: calc(50% - 10px) !important; margin: 0 !important; padding: 0 !important; float: right;">
       <img src="./images/corn_h.gif" 
-           alt="Point cloud by height" 
-           style="width: 100%; height: auto; display: block;">
+           alt="Right Image" 
+           style="width: 100% !important; height: auto !important; display: block !important;">
     </figure>
   </div>
+  <figure style="width: 100% !important; margin: 0 !important; padding: 0 !important; clear: both !important;">
+    <img src="./images/graphical_abstract.png" 
+         alt="Teaser Image" 
+         style="width: 100% !important; height: auto !important; display: block !important;">
+    <figcaption style="margin-top: 12px !important; text-align: center !important; font-family: sans-serif !important; font-size: 0.9em !important;">
+      (c) Field robot and schematic structure...
+    </figcaption>
+  </figure>
 </div>
-
 
 ### Description
 
