@@ -23,11 +23,11 @@
   </tr>
 </table>
 
-<figure style="margin-top:16px; text-align:center;">
+<figure style="margin-top:16px; text-align:center; max-width:100%;">
   <img src="./images/graphical_abstract.png"
        alt="Teaser Image"
-       style="max-width:100%; width:100%; height:auto;">
-  <figcaption style="margin-top:4px;">
+       style="max-width:100%; width:100%; height:auto; display:block;">
+  <figcaption style="margin-top:8px; text-align:center; width:100%; box-sizing:border-box;">
     Field robot and schematic structure of the kinematic laser scanning system and crop point clouds created with the field robot for a) Initial rigid mounting calibration, b) rigid ICP alignment, and c) our kinematic calibration approach.
   </figcaption>
 </figure>
