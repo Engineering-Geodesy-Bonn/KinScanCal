@@ -3,18 +3,12 @@
     <img src="./images/corn_id.gif"
          style="width: 100%; height: auto; display: block;"
          alt="Point cloud by scanner index">
-    <figcaption style="margin-top: 8px; text-align: center; font-size: 14px;">
-      (a) Point cloud colored by the scanner index
-    </figcaption>
   </figure>
   
   <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="./images/corn_h.gif"
          style="width: 100%; height: auto; display: block;"
          alt="Point cloud by height">
-    <figcaption style="margin-top: 8px; text-align: center; font-size: 14px;">
-      (b) Point cloud colored by the height
-    </figcaption>
   </figure>
 </div>
 
