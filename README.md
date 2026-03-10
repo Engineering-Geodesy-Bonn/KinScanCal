@@ -1,5 +1,5 @@
-<div style="display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;">
-  <figure style="flex: 1; margin: 0; text-align: center; min-width: 300px;">
+<div style="display: flex; gap: 20px; margin-bottom: 20px;">
+  <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="./images/corn_id.gif"
          style="width: 100%; height: auto; display: block;"
          alt="Point cloud by scanner index">
@@ -8,7 +8,7 @@
     </figcaption>
   </figure>
   
-  <figure style="flex: 1; margin: 0; text-align: center; min-width: 300px;">
+  <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="./images/corn_h.gif"
          style="width: 100%; height: auto; display: block;"
          alt="Point cloud by height">
@@ -21,8 +21,8 @@
 <figure style="margin-top: 20px; text-align: center;">
   <img src="./images/graphical_abstract.png"
        alt="Teaser Image"
-       style="width: 100%; max-width: 100%; height: auto; display: block; margin: 0 auto;">
-  <figcaption style="margin-top: 12px; text-align: center; max-width: 100%; line-height: 1.4;">
+       style="width: 100%; height: auto; display: block; margin: 0 auto;">
+  <figcaption style="margin-top: 12px; text-align: center; line-height: 1.4;">
     (c) Field robot and schematic structure of the kinematic laser scanning system and crop point clouds created with the field robot for Initial rigid mounting calibration, rigid ICP alignment, and our kinematic calibration approach.
   </figcaption>
 </figure>
