@@ -6,7 +6,7 @@
              style="width:100%; height:auto; display:block; margin:0 auto;"
              alt="Point cloud by scanner index">
         <figcaption style="margin-top:4px; display:block; clear:both; text-align:center;">
-          Point cloud colored by the scanner index
+          Scanner index colored
         </figcaption>
       </figure>
     </td>
@@ -16,7 +16,7 @@
              style="width:100%; height:auto; display:block; margin:0 auto;"
              alt="Point cloud by height">
         <figcaption style="margin-top:4px; display:block; clear:both; text-align:center;">
-          Point cloud colored by the height
+          Height colored
         </figcaption>
       </figure>
     </td>
