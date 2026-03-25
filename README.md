@@ -52,6 +52,17 @@ The repository also contains Dockerfile. Please build and run the docker using t
   docker build -t sliding_icp_docker .
   docker run -it --name your_test_run sliding_icp_docker:latest 
   ```
-## Data
+### FieldPheno4D dataset
 
-The wheat, corn and sugar beet dataset is provided via sciebo share: https://uni-bonn.sciebo.de/s/qgLQ8wfS7oMWase. Download the laser profile data (.bin) for both scanners and the trajectory files (.trj) and copy them into /input folder of the repository. Note that only one dataset can be placed in the input folder. 
+The kinematic calibration method is tested on the "FieldPheno4D" dataset available at https://doi.org/10.60507/FK2/HYI2DS. It contains spatio-temporal pointclouds georeferenced with an accuracy of some centimeter containing crop varieties of bean, wheat, soybean, corn, potato, sugar beet, and brassica planted in rows in crop plots with dimensions of 7.5 times 1.5 meter at shown in the following orthophoto.
+
+<figure style="width: 100% !important; margin: 0 !important; padding: 0 !important; clear: both !important;">
+  <img src="./images/orthophoto_fieldpheno4d.png" 
+    alt="Teaser Image" 
+    style="width: 100% !important; height: auto !important; display: block !important;">
+  <figcaption style="margin-top: 12px !important; text-align: center !important; font-family: sans-serif !important; font-size: 0.9em !important;">
+    Orthophoto of the crop plots of the "FieldPheno4D" dataset.
+  </figcaption>
+</figure>
+
+The crop plots are measured by the field robot platform as described above from May to September during the vegetation period 2023 at an experimental field close to Bonn, Germany. The following timetable summarizes the days of measurements for each crop plot.

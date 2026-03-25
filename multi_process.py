@@ -1,7 +1,13 @@
 import csv
 import subprocess
 
-csv_file = "dataset_meta.csv"  # path to your CSV
+csv_file = "dataset_meta.csv"
+
+"""
+This script can be used to run the kinematic calibration method for the whole or parts of the "FieldPheno4D" datasets. 
+It reads the metadata table "dataset_meta.csv" of the dataset and filters not processed crop plots NOT containing a "x" at the end of the dates within the metadata files which should be processed.
+Finally it sequential runs the "main.py" script with the input datasets to be processed with the plot_id and date intput argument.
+"""
 
 with open(csv_file, newline='') as f:
     reader = csv.reader(f)
