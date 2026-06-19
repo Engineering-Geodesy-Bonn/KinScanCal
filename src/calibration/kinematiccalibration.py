@@ -293,11 +293,11 @@ class kinematiccalibration:
         print("--------------------------------------------------------------------------------")
         print("Reading system calibration parameters ")
 
-        self.x = np.loadtxt( fname = pathx, delimiter = " ")
+        self.x = np.loadtxt( fname = pathx, delimiter = " " )
 
         # If interpolated calibration file is specified
         if path_intx is not None:
-            self.xint = np.loadtxt( fname = path_intx, delimiter = " ")
+            self.xint = np.loadtxt( fname = path_intx, delimiter = " " )
 
         print("... done ")
-        print("--------------------------------------------------------------------------------")    
+        print("--------------------------------------------------------------------------------")

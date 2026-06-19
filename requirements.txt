@@ -2,6 +2,7 @@ numpy
 matplotlib
 colorama
 click
+rasterio
 pandas
 scipy
 laspy

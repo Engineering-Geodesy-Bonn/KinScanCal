@@ -1,4 +1,5 @@
 from src.core.KinematicCalibration import KinematicCalibration
+from src.pointcloud.dem import plot_dem_and_kinematic_calibration
 
 from colorama import init, Fore, Style
 import click
@@ -89,6 +90,9 @@ def main(parent_dir,
             shutil.copy(file_path, destination_path)
         except Exception as e:
             continue
+
+    # Create a combined DEM and calibration overview plot in the dataset folder
+    plot_dem_and_kinematic_calibration(dataset_dir)
 
     # 4.2 Point clouds
     pc_files = glob.glob(os.path.join("output/", "*.las"))
