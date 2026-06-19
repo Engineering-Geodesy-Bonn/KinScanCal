@@ -6,6 +6,7 @@ input/data_evaluation/
 output/initial/
 output/parameter/
 slidingICP_env/
+scripts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
