@@ -54,21 +54,7 @@ The repository also contains Dockerfile. Please build and run the docker using t
   ```
 # FieldPheno4D dataset
 
-The kinematic calibration method is tested on the "FieldPheno4D" dataset available at https://doi.org/10.60507/FK2/HYI2DS. It contains spatio-temporal pointclouds georeferenced with an accuracy of some centimeter containing crop varieties of bean, wheat, soybean, corn, potato, sugar beet, and brassica planted in rows in crop plots with dimensions of 7.5 times 1.5 meter at shown in the following orthophoto.
-
-<figure style="width: 100% !important; margin: 0 !important; padding: 0 !important; clear: both !important;">
-  <img src="./images/fieldpheno4d_orthophoto.png" 
-    alt="Teaser Image" 
-    style="width: 100% !important; height: auto !important; display: block !important;">
-</figure>
-
-The crop plots are measured by the field robot platform as described above from May to September during the vegetation period 2023 at an experimental field close to Bonn, Germany. The following timetable summarizes the days of measurements for each crop plot.
-
-<figure style="width: 100% !important; margin: 0 !important; padding: 0 !important; clear: both !important;">
-  <img src="./images/fieldpheno4d_timetable.png" 
-    alt="Teaser Image" 
-    style="width: 100% !important; height: auto !important; display: block !important;">
-</figure>
+The kinematic calibration method is tested on the "FieldPheno4D" dataset described at [FieldPheno4D](https://github.com/felixesser/FieldPheno4D). It contains spatio-temporal pointclouds georeferenced with an accuracy of some centimeter containing crop varieties of bean, wheat, soybean, corn, potato, sugar beet, and brassica planted in rows in crop plots with dimensions of 8.0 times 1.5 meter.
 
 # Acknowledgments
 
